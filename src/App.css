@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+p{
+  margin: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hdgName{
+ text-align: center;  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dspflxhd,.dspflxbd{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between; 
+}   
+
+.tblhd,.dspflxhd{
+  width: 90%;
+  margin: 0px auto;
+}
+.dspflx-hrcntr{
+  display: flex;
+  justify-content: center;
+}
+.dspflx-hrcntr button,.userListActions button{
+  color: #fff;
+    background: #000;
+    border: none;
+    padding: 5px 19px;
+    border-radius: 4px;
+}
+.isDisable{
+  background: rgba(0,0,0,0.5) !important;
+  color: rgba(0,0,0) !important;
+}
+.dspflx-hrcntr button{
+  margin: 20px 20px;
+}
+.userListId,.userListAlbumId,.userListTitle,.userListImage,.userListActions{
+ border: 1px solid rgba(0,0,0,0.5);
+ padding: 5px;
+ display: flex;
+align-items: center;
+justify-content: center;
+} 
+.userListId{
+  width: 10%;
+}
+.userListAlbumId{
+  width: 15%;
+}
+.userListTitle{
+  width: 40%;
+} 
+.userListImage{
+  width: 20%;
+  overflow: hidden;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.userListActions{
+  width:15%
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userListImage img{
+   width: 50px;
+   height: 50px;
 }
+.edit-txt{
+  width: 89%;
+} 
